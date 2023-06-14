@@ -30,8 +30,8 @@
   "scripts": {
     "compile": "tsc --noEmit",
     "compile:watch": "tsc --noEmit --watch",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "test:ci": "CI=true react-scripts test",
     "eject": "react-scripts eject",
